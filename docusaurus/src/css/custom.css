@@ -6,25 +6,94 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: hsl(220, 49%, 35%);
+  --ifm-color-primary-dark: hsl(220, 49%, 32%);
+  --ifm-color-primary-darker: hsl(220, 49%, 30%);
+  --ifm-color-primary-darkest: hsl(220, 49%, 25%);
+  --ifm-color-primary-light: hsl(220, 48%, 39%);
+  --ifm-color-primary-lighter: hsl(220, 49%, 40%);
+  --ifm-color-primary-lightest: hsl(220, 48%, 46%);
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-scroll-bar: #DADDE1;
+  --ifm-bg: #FFFFFF;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: hsl(190, 81%, 54%);
+  --ifm-color-primary-dark: hsl(190, 81%, 49%);
+  --ifm-color-primary-darker: hsl(190, 81%, 46%);
+  --ifm-color-primary-darkest: hsl(190, 81%, 38%);
+  --ifm-color-primary-light: hsl(190, 82%, 60%);
+  --ifm-color-primary-lighter: hsl(190, 81%, 62%);
+  --ifm-color-primary-lightest: hsl(190, 81%, 70%);
+  --ifm-scroll-bar: #606770;
+  --ifm-bg: #18191A;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-scroll-bar);
+  border-radius: 10px;
+  border: 5px solid var(--ifm-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary);
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+img[alt="logo_module"] {
+  width: 200px;
+  float: right;
+}
+
+.header-github-link:hover {
+  opacity: 0.6;
+}
+
+.header-github-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/img/github_logo_light.svg) no-repeat;
+}
+
+html[data-theme='dark'] .header-github-link:before {
+  background: url(/img/github_logo_dark.svg) no-repeat;
+}
+
+.header-moodle-link:hover {
+  opacity: 0.6;
+}
+
+.header-moodle-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/img/moodle_logo_light.svg) no-repeat;
+}
+
+html[data-theme='dark'] .header-moodle-link:before {
+  background: url(/img/moodle_logo_dark.svg) no-repeat;
 }

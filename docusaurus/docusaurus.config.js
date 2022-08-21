@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Lernportfolio M133',
+  tagline: 'Lernportfolio von Valentino Panico 🦕',
+  url: 'https://bztfinformatik.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,16 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+  organizationName: 'bztfinformatik', // Usually your GitHub org/user name.
+  projectName: 'lernportfolio-ZZELAV', // Usually your repo name.
 
   presets: [
     [
@@ -34,17 +26,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: 'docs',
+          path: 'docs',
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,78 +41,129 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'appendix',
+        path: 'appendix',
+        routeBasePath: 'appendix',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+  ],
+
+  i18n: {
+    defaultLocale: 'de',
+    locales: ['de'],
+    localeConfigs: {
+      de: {
+        htmlLang: 'de-CH',
+      },
+    },
+  },
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
-        title: 'My Site',
+        hideOnScroll: true,
+        title: 'Lernportfolio M133',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Docusaurus Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Doku 📖',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: '/appendix/',
+            label: 'Appendix 📚',
+            position: 'left',
+            activeBaseRegex: `/appendix/`,
+          },
+          {
+            to: '/docs/tags/',
+            label: 'Tags 🔎',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/bztfinformatik/lernportfolio-ZZELAV',
             position: 'right',
+            className: 'header-github-link',
+          },
+          {
+            href: 'https://moodle.bztf.ch/my/',
+            position: 'right',
+            className: 'header-moodle-link',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Home',
+                to: '/',
               },
-            ],
+              {
+                label: 'Doku',
+                to: '/docs',
+              },
+              {
+                label: 'Appendix',
+                to: '/appendix',
+              },
+              {
+                label: 'Tags',
+                to: '/docs/tags',
+              }
+            ]
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+            title: ' ',
           },
           {
-            title: 'More',
+            title: ' ',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/bztfinformatik/lernportfolio-ZZELAV',
+              },
+              {
+                label: 'Moodle',
+                href: 'https://moodle.bztf.ch/my/',
+              },
+              {
+                label: 'Markdown Guide',
+                href: 'https://www.markdownguide.org/',
+              },
+              {
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell', 'java', 'php', 'docker', 'markup'],
       },
     }),
 };
