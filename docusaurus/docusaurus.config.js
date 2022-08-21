@@ -9,7 +9,7 @@ const config = {
   title: 'Lernportfolio M133',
   tagline: 'Lernportfolio von Valentino Panico 🦕',
   url: 'https://bztfinformatik.github.io',
-  baseUrl: '/',
+  baseUrl: '/lernportfolio-ZZELAV/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
