@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[6701],{2708:s=>{s.exports=JSON.parse('{"label":"Powershell","permalink":"/lernportfolio-ZZELAV/docs/tags/powershell","allTagsPath":"/lernportfolio-ZZELAV/docs/tags","count":1,"items":[{"id":"tag-0001","title":"Tag 1","description":"","permalink":"/lernportfolio-ZZELAV/docs/tag-0001"}]}')}}]);
