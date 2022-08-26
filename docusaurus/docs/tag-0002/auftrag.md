@@ -196,4 +196,220 @@ Die Länge der URL ist beschränkt und daher kann man mit GET auch nicht so viel
 
 ### 1.3 Arrays
 
+Arrays sind geordnete Liste. In dieser Liste können Zahlen oder Text gespeichert werden. Arrays sind Variablen die mehrere Werte gleichzeitig speichern kann.
+
+```php
+<?php
+$wochentage = array("Sonntag","Montag","Dienstag",
+"Mittwoch","Donnerstag","Freitag","Samstag");
+echo $wochentage[1];
+?>
+```
+
+Um ein Array zu erstellen, muss wie bei einer normalen Variable mit `$` eine Variable erstellt werden. Danach kann mit der Funktion `array()` diese Variable mit mehreren Werten gefüllt werden. Das `echo` gibt jetzt den ersten Wochentag aus, was allerdings nicht Sonntag sondern Montag ist, denn das Zählen fängt schon bei 0 an.
+
+Eine weitere Array-Art ist das Assoziative Array. Diese wird genutzt wenn man einen Key zu einem Wert zuweisen möchte.
+
+```php
+<?php
+$wochentage = array(
+"so" => "Sonntag",
+"mo" => "Montag",
+"di" => "Dienstag",
+"mi" => "Mittwoch",
+"do" => "Donnerstag",
+"fr" => "Freitag",
+"sa" => "Samstag");
+
+echo $wochentage["mo"];
+?>
+```
+
+Somit gibt dieses Beispiel der Wert vom key `mo` aus. Dies hat den Vorteil, dass man einfacher auf die Werte zugreifen kann. Man muss nur wissen wie der Key heisst.
+
+Diese Werte können auch nachträglich bearbeitet werden.
+
+```php
+<?php
+$wochentage = array(
+"so" => "Sonntag",
+"mo" => "Montag",
+"di" => "Dienstag",
+"mi" => "Mittwoch",
+"do" => "Donnerstag",
+"fr" => "Freitag",
+"sa" => "Samstag");
+
+$wochentage["mo"] = "Monday";
+echo $wochentage["mo"];
+?>
+```
+
+Auch können einem Array Werte hinzugefügt werden.
+
+```php
+<?php
+$mitarbeiter = array("Bob","Peter");
+$mitarbeiter[] = "Lisa";
+
+echo $mitarbeiter[2];
+?>
+```
+
+Mit der Funktion `implode()` können Zeichenketten verbunden werden. Somit können Werte aus einem Array in einen Strings umgewandelt werden.
+
+```php
+<?php
+$namen = array("Paul", "Max", "Hans");
+
+echo "Namen per Komma trennen: <br>";
+$namenStr = implode(", ", $namen);
+echo $namenStr; 
+
+echo "<br><br>";
+echo "Ein Name pro Zeile: <br>";
+echo implode("<br>", $namen);
+```
+
+Der erste Parameter definiert, wie es getrennt werden soll und der zweite Parameter definiert welches Array durchsucht werden soll.
+
+Mit der Funktion `explode()` können Strings in Array umgewandelt werden.
+
+```php
+<?php
+$text = "Paul,Max,Hannes";
+$namen = explode(",", $text ); //Konvertierung des Strings in ein Array
+echo "<pre>"; var_dump($namen); echo "</pre>"; //Formartierte Ausgabe des Arrays
+
+
+//Ersetze die 1. Person durch neuen Namen
+$namen[1] = "Lisa";
+
+//Verwandel das Array zurück in einen String
+$text = implode(", ", $namen);
+echo $text;
+```
+
+Wie auch bei der `implode()`-Funktion definiert der erste Parameter das Trennzeichen und der zweite die Variable die getrennt werden soll.
+
+Arrays können auch in Arrays gespeichert werden. Diese werden mehrdimensionale Arrays genannt. Die Tiefe ist unbeschränkt und wird Dimension genannt. Ein normales Arrays hat eine Dimension und ein Array in einem Array hat daher zwei Dimensionen usw.
+
+```php
+<?php
+$mitarbeiter = array(
+  array("Klaus", "Zabel"),
+  array("Arnie", "Meier"),
+  array("Willi", "Brand")
+);
+
+//Daten ausgeben
+echo "Vorname: ".$mitarbeiter[0][0];
+echo " Nachname: ".$mitarbeiter[0][1];
+?>
+```
+
+Mehrdimensionale Arrays können auch mit Key-Values-Arrays genutzt werden.
+
+```php
+<?php
+$mitarbeiter = array();
+$mitarbeiter[] = array("Vorname"=>"Klaus",
+                       "Nachname"=>"Zabel");
+
+$mitarbeiter[] = array("Vorname"=>"Arnie",
+                       "Nachname"=>"Meier");
+
+$mitarbeiter[] = array("Vorname"=>"Willi",
+                       "Nachname"=>"Brand");
+
+//Daten ausgeben
+echo "Vorname: ".$mitarbeiter[0]["Vorname"];
+echo " Nachname: ".$mitarbeiter[0]["Nachname"];
+?>
+```
+
+Auch können Werte nachträglich bearbeitet und hinzugefügt werden.
+
+```php
+<?php
+$mitarbeiter = array();
+$mitarbeiter["Klaus"]["Vorname"] = "Klaus";
+$mitarbeiter["Klaus"]["Nachname"] = "Zabel";
+$mitarbeiter["Klaus"]["Kinder"][] = "Klaus-Junior";
+$mitarbeiter["Klaus"]["Kinder"][] = "Kind2";
+
+//Daten ausgeben
+echo "Vorname: ".$mitarbeiter["Klaus"]["Vorname"];
+echo " Nachname: ".$mitarbeiter["Klaus"]["Nachname"];
+echo "<br> Er hat ";
+echo count($mitarbeiter["Klaus"]["Kinder"])." Kinder";
+
+//Ausgabe von Kind1:
+//$mitarbeiter["Klaus"]["Kinder"][0];
+
+echo "<br> Kinder: <br>";
+foreach($mitarbeiter["Klaus"]["Kinder"] AS $name) {
+   echo $name."<br>";
+}
+?>
+```
+
+Um Arrays durchzusuchen, kann die Funktion `in_array()` genutzt werden.
+
+```php
+<?php
+$mitarbeiter = array("Bob","Peter","Lisa");
+$name = "Bob";
+if(in_array($name,$mitarbeiter)) {
+   echo "Der Name $name ist in dem Array enthalten";
+}
+?>
+```
+
+Mit `array_key_exists()` können auch die Keys gesucht werden.
+
+```php
+<?php
+$mitarbeiter = array("Bob" => "Baumeister", "Klaus" => "Muster");
+$key = "Bob";
+
+if(array_key_exists($key, $mitarbeiter)) {
+  echo "Das Element $key hat den Wert: ".$mitarbeiter[$key];
+} else {
+  echo "Das Array hat keinen Schlüssel $key";
+}
+?>
+```
+
+Um die Elemente eines Arrays zu zählen, kann die Funktion `count()` genutzt werden.
+
+```php
+<?php
+$namen = array("Klaus", "Anna", "Dieter");
+
+echo "<br> Durchlaufen des Arrays mittels for-Schleife: ";
+for($i=0; $i<count($namen); $i++) {
+  echo $namen[$i].", ";
+}
+
+echo "<br> Durchlaufen des Arrays mittels foreach-Schleife: ";
+foreach($namen AS $name) {
+  echo $name.", ";
+}
+?>
+```
+
+Mit der Funktion `sort()` können Arrays sortiert werden.
+
+```php
+<?php
+$namen = array("Klaus", "Dieter", "Anna", "Melissa", "arne");
+
+sort($namen);
+echo implode(", ", $namen);
+?>
+```
+
+Diese können mit der Funktion `rsort()` auch rückwärts sortiert werden und mit der Funktion `shuffle()` kann ein Array zufällig gemischt werden.
+
 ## 2 Programmierauftrag I
