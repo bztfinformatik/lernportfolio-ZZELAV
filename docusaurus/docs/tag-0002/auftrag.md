@@ -413,3 +413,59 @@ echo implode(", ", $namen);
 Diese können mit der Funktion `rsort()` auch rückwärts sortiert werden und mit der Funktion `shuffle()` kann ein Array zufällig gemischt werden.
 
 ## 2 Programmierauftrag I
+
+```php
+<?php
+echo "<br>PROGRAMMIERAUFTRAG I<br>";
+$array = array(3, 7, 5, 1, 8, 13, 2);
+?>
+<table class="tg">
+   <tbody>
+      <tr>
+         <?php
+         foreach ($array as $value) {
+            echo "<td class='tg-0lax'>" . $value . "</td>";
+         }
+         ?>
+      </tr>
+   </tbody>
+</table>
+?>
+```
+
+```css
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+```
+
+Als erstes wird mithilfe der `array()`-Funktion ein neues Array erstellt. Die Variable wird `$array` genannt. Danach wird eine HTML-Tabelle erstellt und der Table-Data (`<td>`), werden per `foreach` die Werte des Arrays eingefüllt.
