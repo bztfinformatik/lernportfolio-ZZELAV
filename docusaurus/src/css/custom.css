@@ -4,50 +4,90 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: hsl(220, 49%, 35%);
-  --ifm-color-primary-dark: hsl(220, 49%, 32%);
-  --ifm-color-primary-darker: hsl(220, 49%, 30%);
-  --ifm-color-primary-darkest: hsl(220, 49%, 25%);
-  --ifm-color-primary-light: hsl(220, 48%, 39%);
-  --ifm-color-primary-lighter: hsl(220, 49%, 40%);
-  --ifm-color-primary-lightest: hsl(220, 48%, 46%);
-  --ifm-code-font-size: 95%;
-  --ifm-scroll-bar: #DADDE1;
-  --ifm-bg: #FFFFFF;
+  --ifm-color-primary: #3578e5;
+  --ifm-color-primary-dark: #1d68e1;
+  --ifm-color-primary-darker: #1b62d4;
+  --ifm-color-primary-darkest: #1751af;
+  --ifm-color-primary-light: #4e89e8;
+  --ifm-color-primary-lighter: #5a91ea;
+  --ifm-color-primary-lightest: #80aaef;
+  --ifm-color-primary-black: #7b7f8a;
+  --ifm-code-font-size: 90%;
+  --ifm-code-border-radius: 0;
+  --ifm-alert-border-radius: 0;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: hsl(190, 81%, 54%);
-  --ifm-color-primary-dark: hsl(190, 81%, 49%);
-  --ifm-color-primary-darker: hsl(190, 81%, 46%);
-  --ifm-color-primary-darkest: hsl(190, 81%, 38%);
-  --ifm-color-primary-light: hsl(190, 82%, 60%);
-  --ifm-color-primary-lighter: hsl(190, 81%, 62%);
-  --ifm-color-primary-lightest: hsl(190, 81%, 70%);
-  --ifm-scroll-bar: #606770;
-  --ifm-bg: #18191A;
+html[data-theme='dark'] {
+  --ifm-background-color: #20232A;
+  --ifm-background-surface-color: #1c1d22;
 }
 
-::-webkit-scrollbar {
-  width: 20px;
-  height: 20px;
+h1 {
+  font-size: 2.5rem !important;
+  font-weight: normal;
 }
 
-::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0);
+h2 {
+  font-size: 2rem !important;
+  font-weight: normal;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--ifm-scroll-bar);
-  border-radius: 10px;
-  border: 5px solid var(--ifm-bg);
+h3 {
+  font-size: 1.8rem !important;
+  font-weight: normal;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--ifm-color-primary);
+h4 {
+  font-size: 1.5rem !important;
+  font-weight: normal;
+}
+
+h5 {
+  font-size: 1.3rem !important;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: 1rem !important;
+  font-weight: normal;
+}
+
+.footer {
+  background: var(--ifm-background-surface-color);
+}
+
+.footer .row .footer__title {
+  text-transform: uppercase;
+  color: var(--ifm-color-primary-black);
+}
+
+.table-of-contents {
+  padding-left: 1rem;
+}
+
+.table-of-contents__link--active {
+  color: inherit;
+  font-weight: bold;
+  border-left: .3rem solid var(--ifm-color-primary);
+  padding-left: .5rem;
+  margin-left: -.8rem;
+  letter-spacing: 1px;
+}
+
+.menu li {
+  margin-right: 8px;
+}
+
+.prism-code,
+.codeBlockTitle_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
+  border-left: .3rem solid var(--ifm-color-primary);
 }
 
 .docusaurus-highlight-code-line {
@@ -96,4 +136,19 @@ html[data-theme='dark'] .header-github-link:before {
 
 html[data-theme='dark'] .header-moodle-link:before {
   background: url(/img/moodle_logo_dark.svg) no-repeat;
+}
+
+img[alt="RAID"] {
+  height: 300px;
+  width: auto;
+}
+
+img[alt="PHPLogo"] {
+  width: 150px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+code {
+  font-family: 'Fira Code', monospace !important;
 }
