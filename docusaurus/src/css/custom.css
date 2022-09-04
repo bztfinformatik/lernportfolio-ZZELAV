@@ -147,8 +147,8 @@ img[alt="PHPLogo"] {
   width: 150px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 code {
-  font-family: 'Fira Code', monospace !important;
+  font-family: 'Source Code Pro', monospace !important;
 }
