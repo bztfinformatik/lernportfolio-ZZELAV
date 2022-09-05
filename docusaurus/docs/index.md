@@ -14,3 +14,8 @@ pagination_next: null
 > Rechnen mit Variablen  
 > $_GET und $_POST  
 > Arrays
+
+> [**Tag 3**](./tag-0003)  
+> if's und Schleifen  
+> Operatoren  
+> Praxisaufgabe "Brauerei Locher"
