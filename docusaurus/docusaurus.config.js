@@ -68,12 +68,10 @@ const config = {
     ({
       docs: {
         sidebar: {
-          hideable: true,
           autoCollapseCategories: true,
         },
       },
       navbar: {
-        hideOnScroll: true,
         title: 'Lernportfolio M133',
         logo: {
           alt: 'Docusaurus Logo',
@@ -158,7 +156,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
+        copyright: `v1.3<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
       },
       prism: {
         theme: lightCodeTheme,
