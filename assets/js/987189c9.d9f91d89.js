@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4435],{4242:a=>{a.exports=JSON.parse('{"label":"Tag 3","permalink":"/lernportfolio-ZZELAV/docs/tags/tag-3","allTagsPath":"/lernportfolio-ZZELAV/docs/tags","count":1,"items":[{"id":"tag-0003/index","title":"Tag 3","description":"Auftrag","permalink":"/lernportfolio-ZZELAV/docs/tag-0003/"}]}')}}]);
