@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    Svg: require('@site/static/img/undraw_key_points_re_u903.svg').default,
+    Svg: require('@site/static/data/undraw_key_points_re_u903.svg').default,
     title: (
       <>
         Lernportfolio M133

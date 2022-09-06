@@ -115,11 +115,11 @@ img[alt="logo_module"] {
   width: 24px;
   height: 24px;
   display: flex;
-  background: url(/img/github_logo_light.svg) no-repeat;
+  background: url(/data/github_logo_light.svg) no-repeat;
 }
 
 html[data-theme='dark'] .header-github-link:before {
-  background: url(/img/github_logo_dark.svg) no-repeat;
+  background: url(/data/github_logo_dark.svg) no-repeat;
 }
 
 .header-moodle-link:hover {
@@ -131,11 +131,11 @@ html[data-theme='dark'] .header-github-link:before {
   width: 24px;
   height: 24px;
   display: flex;
-  background: url(/img/moodle_logo_light.svg) no-repeat;
+  background: url(/data/moodle_logo_light.svg) no-repeat;
 }
 
 html[data-theme='dark'] .header-moodle-link:before {
-  background: url(/img/moodle_logo_dark.svg) no-repeat;
+  background: url(/data/moodle_logo_dark.svg) no-repeat;
 }
 
 img[alt="RAID"] {

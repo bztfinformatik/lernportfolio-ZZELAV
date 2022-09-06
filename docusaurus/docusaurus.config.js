@@ -75,7 +75,7 @@ const config = {
         title: 'Lernportfolio M133',
         logo: {
           alt: 'Docusaurus Logo',
-          src: 'img/logo.png',
+          src: 'data/logo.png',
         },
         items: [
           {
