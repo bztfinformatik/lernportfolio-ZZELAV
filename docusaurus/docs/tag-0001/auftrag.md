@@ -8,7 +8,7 @@ Containervirtualisierung ist ein Konzept, bei dem Funktionen des Host-Betriebssy
 
 Container greifen auf den Kernel des Hosts zu und nutzen diese Ressourcen, hingegen VM (Virtuelle Maschinen) sind ein ganz eigenes Betriebssystem.
 
-![Virtualisation vs Container](/img/tag-0001/vm_container.png)
+![Virtualisation vs Container](/data/tag-0001/vm_container.png)
 
 [Quelle Text](https://gridscale.io/community/glossar/was-ist-containervirtualisierung/)
 
