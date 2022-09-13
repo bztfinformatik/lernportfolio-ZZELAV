@@ -1,5 +1,6 @@
 ---
 title: "Tag 3"
+pagination_prev: null
 tags:
   - Tag 3
   - PHP
