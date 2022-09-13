@@ -11,7 +11,7 @@ tags:
 
 # Tag 2
 
-## [Auftrag](./tag-0002/auftrag)
+## [Auftrag](./auftrag.md)
 
 :::info HA
 - Lernportfolio führen / Notizen erfassen
@@ -22,4 +22,4 @@ tags:
 - Programmierauftrag 1 auf dem Basisprojekt programmieren
 :::
 
-## [Reflexion](./tag-0002/reflexion)
+## [Reflexion](./reflexion.md)

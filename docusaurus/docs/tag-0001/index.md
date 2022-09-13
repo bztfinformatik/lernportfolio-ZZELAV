@@ -10,7 +10,7 @@ tags:
 
 # Tag 1
 
-## [Auftrag](./tag-0001/auftrag)
+## [Auftrag](./auftrag.md)
 
 :::info HA
 - Lernportfolio führen / Notizen erfassen (Docsify ausprobieren <- Fragen auf Teams stellen)
@@ -27,4 +27,4 @@ tags:
 - Infrastruktur läuft (VMware / Virtualbox oder Docker-Desktop)
 :::
 
-## [Reflexion](./tag-0001/reflexion)
+## [Reflexion](./reflexion.md)

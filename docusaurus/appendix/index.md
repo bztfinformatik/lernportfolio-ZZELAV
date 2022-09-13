@@ -5,4 +5,4 @@ pagination_next: null
 
 # Appendix
 
-[PlantUML CSR](./appendix/plantuml_csr)
+[PlantUML CSR](./plantuml_csr.md)

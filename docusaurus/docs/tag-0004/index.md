@@ -11,7 +11,7 @@ tags:
 
 # Tag 4
 
-## [Auftrag](./tag-0004/auftrag)
+## [Auftrag](./auftrag.md)
 
 :::info HA
 - Lernportfolio führen / Notizen erfassen
@@ -22,4 +22,4 @@ tags:
   - Appis : Add in CSR implementieren
 :::
 
-## [Reflexion](./tag-0004/reflexion)
+## [Reflexion](./reflexion.md)
