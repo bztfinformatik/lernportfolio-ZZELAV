@@ -1,8 +1,8 @@
 # Reflexion
 
-Heute haben wir weiter mit den PHP-Grundlagen auseinandergesetzt. Da haben wir das Skript von [php-einfach.de](https://www.php-einfach.de/) genutzt und die Kapitel [Rechnen mit Variablen](../auftrag#11-rechnen-mit-variablen), [$_GET und $_POST](../auftrag#12-_get-und-_post) und [Arrays](../auftrag#13-arrays) durchgearbeitet.
+Heute haben wir weiter mit den PHP-Grundlagen auseinandergesetzt. Da haben wir das Skript von [php-einfach.de](https://www.php-einfach.de/) genutzt und die Kapitel [Rechnen mit Variablen](./auftrag#11-rechnen-mit-variablen), [$_GET und $_POST](./auftrag#12-_get-und-_post) und [Arrays](./auftrag#13-arrays) durchgearbeitet.
 
-Danach haben wir noch den [ersten Programmierauftrag](../auftrag#2-programmierauftrag-i) durchgeführt. Auftrag war:
+Danach haben wir noch den [ersten Programmierauftrag](./auftrag#2-programmierauftrag-i) durchgeführt. Auftrag war:
 
 :::note Auftrag
 - Gegeben ist der Array aus den Werten 3,7,5,1,8,13,2.

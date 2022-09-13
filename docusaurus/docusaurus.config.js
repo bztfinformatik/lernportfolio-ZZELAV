@@ -18,7 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'bztfinformatik', // Usually your GitHub org/user name.
   projectName: 'lernportfolio-ZZELAV', // Usually your repo name.
-  trailingSlash: true,
+  trailingSlash: false,
 
   presets: [
     [

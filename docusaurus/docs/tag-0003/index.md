@@ -12,7 +12,7 @@ tags:
 
 # Tag 3
 
-## [Auftrag](./auftrag)
+## [Auftrag](./tag-0003/auftrag)
 
 :::info HA
 - Lernportfolio führen / Notizen erfassen
@@ -25,4 +25,4 @@ tags:
   - For-Schleifen
 :::
 
-## [Reflexion](./reflexion)
+## [Reflexion](./tag-0003/reflexion)
