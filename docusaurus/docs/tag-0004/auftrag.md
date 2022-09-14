@@ -166,6 +166,11 @@ $a === $b; // Identisch (gleicher Wert und gleiche Instanz/Datentyp)
 ?>
 ```
 
+```text title="./app/data/api_data.txt"
+alf;zalf
+balf;calf
+```
+
 ## 3 PHP-Skript
 
 ### 3.1 Dateien lesen
