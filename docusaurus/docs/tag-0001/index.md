@@ -1,5 +1,6 @@
 ---
 title: "Tag 1"
+pagination_prev: null
 tags:
   - Tag 1
   - Containervirtualisierung
@@ -9,7 +10,7 @@ tags:
 
 # Tag 1
 
-## [Auftrag](./auftrag)
+## [Auftrag](./auftrag.md)
 
 :::info HA
 - Lernportfolio führen / Notizen erfassen (Docsify ausprobieren <- Fragen auf Teams stellen)
@@ -26,4 +27,4 @@ tags:
 - Infrastruktur läuft (VMware / Virtualbox oder Docker-Desktop)
 :::
 
-## [Reflexion](./reflexion)
+## [Reflexion](./reflexion.md)

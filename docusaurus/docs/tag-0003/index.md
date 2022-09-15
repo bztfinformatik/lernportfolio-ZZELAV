@@ -1,5 +1,6 @@
 ---
 title: "Tag 3"
+pagination_prev: null
 tags:
   - Tag 3
   - PHP
@@ -12,7 +13,7 @@ tags:
 
 # Tag 3
 
-## [Auftrag](./auftrag)
+## [Auftrag](./auftrag.md)
 
 :::info HA
 - Lernportfolio führen / Notizen erfassen
@@ -25,4 +26,4 @@ tags:
   - For-Schleifen
 :::
 
-## [Reflexion](./reflexion)
+## [Reflexion](./reflexion.md)

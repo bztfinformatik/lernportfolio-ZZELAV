@@ -18,6 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'bztfinformatik', // Usually your GitHub org/user name.
   projectName: 'lernportfolio-ZZELAV', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
@@ -156,7 +157,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v1.3<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
+        copyright: `v1.4<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico`,
       },
       prism: {
         theme: lightCodeTheme,

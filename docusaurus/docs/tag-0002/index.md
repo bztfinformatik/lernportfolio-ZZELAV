@@ -1,5 +1,6 @@
 ---
 title: "Tag 2"
+pagination_prev: null
 tags:
   - Tag 2
   - PHP
@@ -10,7 +11,7 @@ tags:
 
 # Tag 2
 
-## [Auftrag](./auftrag)
+## [Auftrag](./auftrag.md)
 
 :::info HA
 - Lernportfolio führen / Notizen erfassen
@@ -21,4 +22,4 @@ tags:
 - Programmierauftrag 1 auf dem Basisprojekt programmieren
 :::
 
-## [Reflexion](./reflexion)
+## [Reflexion](./reflexion.md)
