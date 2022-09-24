@@ -5,6 +5,6 @@ services:
     container_name: docusaurus
     build: .
     ports:
-      - 9999:9999
+      - 3000:3000
     volumes:
       - ./:/app
