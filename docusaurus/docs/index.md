@@ -27,3 +27,7 @@ pagination_next: null
 > [**Tag 5**](./tag-0005/index.md)  
 > OOP  
 > MVC
+
+> [**Tag 6**](./tag-0006/index.md)  
+> MVC  
+> MVC mit Model Auto erweitern
