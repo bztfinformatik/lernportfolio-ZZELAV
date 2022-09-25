@@ -2,7 +2,6 @@
 title: "Tag 6"
 pagination_prev: null
 tags:
-  - M133
   - Tag 6
   - PHP
   - MVC

@@ -2,7 +2,6 @@
 title: "Tag 5"
 pagination_prev: null
 tags:
-  - M133
   - Tag 5
   - PHP
   - OOP
