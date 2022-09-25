@@ -2,7 +2,7 @@
 
 ## local development
 
-with docker:
+with docker (use Hyper-V on Windows if live-reload is needed):
 
 ```
 docker-compose up
