@@ -31,3 +31,6 @@ pagination_next: null
 > [**Tag 6**](./tag-0006/index.md)  
 > MVC  
 > MVC mit Model Auto erweitern
+
+> [**Tag 7**](./tag-0007/index.md)  
+> Twig
