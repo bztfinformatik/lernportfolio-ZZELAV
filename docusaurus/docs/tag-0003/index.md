@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: "Tag 3"
 pagination_prev: null
 tags:
