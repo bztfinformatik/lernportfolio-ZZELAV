@@ -157,7 +157,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v1.7<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
+        copyright: `v1.8<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
