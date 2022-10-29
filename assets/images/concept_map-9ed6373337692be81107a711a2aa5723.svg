@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="458px" preserveAspectRatio="none" style="width:2566px;height:458px;background:#FFFFFF;" version="1.1" viewBox="0 0 2566 458" width="2566px" zoomAndPan="magnify"><defs/><g><g id="elem_SSR"><ellipse cx="37.2843" cy="217.0236" fill="#F1F1F1" rx="31.2843" ry="14.5236" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="23.2843" y="219.8703">SSR</text></g><g id="elem_CSR"><ellipse cx="368.4914" cy="416.5236" fill="#F1F1F1" rx="31.9914" ry="14.5236" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="353.9914" y="419.3703">CSR</text></g><g id="elem_TE"><ellipse cx="797.712" cy="29.4424" fill="#F1F1F1" rx="82.712" ry="18.9424" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="734.5208" y="32.5215">Template-Engine</text></g><g id="elem_UC"><ellipse cx="2238.5731" cy="216.7619" fill="#F1F1F1" rx="58.5731" ry="14.7619" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="2203.0731" y="220.5095">Use-Case</text></g><g id="elem_Aktoren"><ellipse cx="1138.5937" cy="217.2277" fill="#F1F1F1" rx="54.0937" ry="14.7277" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1106.0937" y="220.9753">Aktoren</text></g><g id="elem_FA"><ellipse cx="1997.3679" cy="29.6736" fill="#F1F1F1" rx="106.3679" ry="23.6736" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="1908.3679" y="32.5203">Funktionale Anforderung</text></g><g id="elem_TS"><ellipse cx="2014.6952" cy="416.339" fill="#F1F1F1" rx="69.6952" ry="16.339" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1965.6952" y="420.0866">Testszenario</text></g><g id="elem_TF"><ellipse cx="1681.3615" cy="217.1946" fill="#F1F1F1" rx="50.3615" ry="14.6946" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="1651.3615" y="220.9422">Testfall</text></g><g id="elem_Rendering"><ellipse cx="292.3925" cy="29.5785" fill="#F1F1F1" rx="63.3925" ry="15.0785" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="252.3925" y="33.3261">Rendering</text></g><g id="elem_Twig"><ellipse cx="797.3338" cy="217.0287" fill="#F1F1F1" rx="34.8338" ry="14.5287" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="780.1671" y="220.1168">Twig</text></g><g id="elem_GMN21"><path d="M391,17 L391,25.5 L356.094,29.5 L391,33.5 L391,42.1328 A0,0 0 0 0 391,42.1328 L634,42.1328 A0,0 0 0 0 634,42.1328 L634,27 L624,17 L391,17 A0,0 0 0 0 391,17 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M624,17 L624,27 L634,27 L624,17 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="397" y="34.0669">Code in eine Webseite umwandeln</text></g><g id="elem_GMN24"><path d="M104.5,174 L104.5,213 L69.2422,217 L104.5,221 L104.5,259.6641 A0,0 0 0 0 104.5,259.6641 L448.5,259.6641 A0,0 0 0 0 448.5,259.6641 L448.5,184 L438.5,174 L104.5,174 A0,0 0 0 0 104.5,174 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M438.5,174 L438.5,184 L448.5,184 L438.5,174 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="323" x="110.5" y="191.0669">Server-Side Rendering, die Webseite wird auf dem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="110.5" y="206.1997">Server gerendert.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="194" x="110.5" y="221.3325">Z.B. PHP, wird auf dem Server</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="284" x="110.5" y="236.4653">kompiliert und anschliessend als HTML-Datei</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="110.5" y="251.5981">an den Client geschickt.</text></g><g id="elem_GMN27"><path d="M436,381 L436,412.5 L400.609,416.5 L436,420.5 L436,451.5313 A0,0 0 0 0 436,451.5313 L849,451.5313 A0,0 0 0 0 849,451.5313 L849,391 L839,381 L436,381 A0,0 0 0 0 436,381 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M839,381 L839,391 L849,391 L839,381 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="317" x="442" y="398.0669">Client-Side Rendering, die Webseite wird auf dem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="442" y="413.1997">Client gerendert.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="392" x="442" y="428.3325">Es wird eine einzige HTML-Datei geschickt, und mit JavaScript</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="442" y="443.4653">gerendert.</text></g><g id="elem_GMN30"><path d="M915.5,9.5 L915.5,25.5 L880.056,29.5 L915.5,33.5 L915.5,49.7656 A0,0 0 0 0 915.5,49.7656 L1285.5,49.7656 A0,0 0 0 0 1285.5,49.7656 L1285.5,19.5 L1275.5,9.5 L915.5,9.5 A0,0 0 0 0 915.5,9.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1275.5,9.5 L1275.5,19.5 L1285.5,19.5 L1275.5,9.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="349" x="921.5" y="26.5669">Eine Template-Engine ist eine Vorlagen-Datei/Struktur,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="921.5" y="41.6997">die Platzhalter mit Inhalt ersetzen kann.</text></g><g id="elem_GMN33"><path d="M868,204.5 L868,213 L832.719,217 L868,221 L868,229.6328 A0,0 0 0 0 868,229.6328 L1049,229.6328 A0,0 0 0 0 1049,229.6328 L1049,214.5 L1039,204.5 L868,204.5 A0,0 0 0 0 868,204.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1039,204.5 L1039,214.5 L1049,214.5 L1039,204.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="874" y="221.5669">Template-Engine für PHP</text></g><g id="elem_GMN36"><path d="M2139,9.5 L2139,25.5 L2104.37,29.5 L2139,33.5 L2139,49.7656 A0,0 0 0 0 2139,49.7656 L2358,49.7656 A0,0 0 0 0 2358,49.7656 L2358,19.5 L2348,9.5 L2139,9.5 A0,0 0 0 0 2139,9.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M2348,9.5 L2348,19.5 L2358,19.5 L2348,9.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="2145" y="26.5669">Eine Eigenschaft/Leistung die</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="198" x="2145" y="41.6997">ein Programm erreichen muss.</text></g><g id="elem_GMN39"><path d="M1227.5,174 L1227.5,213 L1192.62,217 L1227.5,221 L1227.5,259.6641 A0,0 0 0 0 1227.5,259.6641 L1595.5,259.6641 A0,0 0 0 0 1595.5,259.6641 L1595.5,184 L1585.5,174 L1227.5,174 A0,0 0 0 0 1227.5,174 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1585.5,174 L1585.5,184 L1595.5,184 L1585.5,174 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="1233.5" y="191.0669">Eine Rolle in einem Programm.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="347" x="1233.5" y="206.1997">Jede Rolle hat andere Funktionen und Berechtigungen.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="310" x="1233.5" y="221.3325">Z.B. kann der Aktor "Admin" in einem Programm</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="298" x="1233.5" y="236.4653">andere Aktoren und das Programm verwalten.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="259" x="1233.5" y="251.5981">Ein Aktor "Gast" könnte nur Daten lesen.</text></g><g id="elem_GMN42"><path d="M1767.5,197 L1767.5,213 L1732.38,217 L1767.5,221 L1767.5,237.2656 A0,0 0 0 0 1767.5,237.2656 L2073.5,237.2656 A0,0 0 0 0 2073.5,237.2656 L2073.5,207 L2063.5,197 L1767.5,197 A0,0 0 0 0 1767.5,197 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M2063.5,197 L2063.5,207 L2073.5,207 L2063.5,197 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="285" x="1773.5" y="214.0669">Ein Test auf Funktionen in einem Programm.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="1773.5" y="229.1997">Z.B. kann sich ein User anmelden.</text></g><g id="elem_GMN45"><path d="M2119,381 L2119,412.5 L2084.16,416.5 L2119,420.5 L2119,451.5313 A0,0 0 0 0 2119,451.5313 L2502,451.5313 A0,0 0 0 0 2502,451.5313 L2502,391 L2492,381 L2119,381 A0,0 0 0 0 2119,381 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M2492,381 L2492,391 L2502,391 L2492,381 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="276" x="2125" y="398.0669">Eine Kombination aus mehreren Testfällen.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="2125" y="413.1997">Z.B. User kann neuen Auftrag erfassen.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="362" x="2125" y="428.3325">Dafür braucht es den Testfall "User kann sich anmelden"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="2125" y="443.4653">und "Auftrag erfassen erfolgreich".</text></g><g id="elem_GMN48"><path d="M2332,197 L2332,213 L2297.12,217 L2332,221 L2332,237.2656 A0,0 0 0 0 2332,237.2656 L2559,237.2656 A0,0 0 0 0 2559,237.2656 L2559,207 L2549,197 L2332,197 A0,0 0 0 0 2332,197 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M2549,197 L2549,207 L2559,207 L2549,197 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="2338" y="214.0669">Use-Case ist eine Beschreibung,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="206" x="2338" y="229.1997">was ein Programm machen soll.</text></g><!--MD5=[090b8aed81d9dc7905a94caea3042955]
+link Rendering to SSR--><g id="link_Rendering_SSR"><path d="M267.228,46.919 C227.793,72.8 149.603,125.173 86.5,174 C75.6448,182.399 63.9585,192.377 54.7221,200.5 " fill="none" id="Rendering-SSR" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="271.841,43.896,262.1209,45.4831,267.6589,46.6364,266.5056,52.1745,271.841,43.896" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="50.9231,203.857,60.3154,200.8932,54.6693,200.5455,55.017,194.8993,50.9231,203.857" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8528250b882d0473470e7b0701348fdb]
+link Rendering to CSR--><g id="link_Rendering_CSR"><path d="M324.262,45.672 C365.699,67.46 436.344,111.934 465.5,174 C504.332,256.663 421.367,359.3499 384.734,398.9029 " fill="none" id="Rendering-CSR" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="319.605,43.254,325.7487,50.9517,324.0423,45.5584,329.4357,43.852,319.605,43.254" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="380.922,402.9711,389.9946,399.1386,384.3407,399.3225,384.1568,393.6686,380.922,402.9711" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9d221abf210ef4da0c9bf7d14fb60c63]
+link SSR to CSR--><g id="link_SSR_CSR"><path d="M54.3762,233.972 C63.5164,242.226 75.2209,252.179 86.5,260 C175.516,321.723 291.321,379.0884 342.377,403.3369 " fill="none" id="SSR-CSR" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="50.6247,230.55,54.5784,239.5704,54.3188,233.9195,59.9697,233.6599,50.6247,230.55" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="347.112,405.5792,340.6898,398.1122,342.5931,403.4393,337.266,405.3425,347.112,405.5792" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[11b0016715cd8427ac8938121693d177]
+link FA to TS--><g id="link_FA_TS"><path d="M2021.19,56.624 C2044.02,83.713 2077.02,128.414 2090.5,174 C2114.97,256.76 2057.2,354.6328 2028.94,395.7525 " fill="none" id="FA-TS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2017.9,52.757,2020.6955,62.2008,2021.1441,56.5618,2026.7831,57.0103,2017.9,52.757" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2025.98,400.0179,2034.405,394.9169,2028.8367,395.9144,2027.8393,390.3461,2025.98,400.0179" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[97bbb89ca0e0daf036bfa0a14ad97ecb]
+link FA to TF--><g id="link_FA_TF"><path d="M1955.95,54.055 C1906.52,82.193 1821.61,130.881 1749.5,174 C1734.84,182.765 1718.56,192.811 1705.6,200.88 " fill="none" id="FA-TF" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1960.33,51.565,1950.5292,52.5371,1955.9837,54.0368,1954.4841,59.4912,1960.33,51.565" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1701.34,203.536,1711.0941,202.1728,1705.584,200.8924,1706.8643,195.3824,1701.34,203.536" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[224e1730138504e14c56c97f9b46aff0]
+link FA to UC--><g id="link_FA_UC"><path d="M2050.75,52.593 C2082.19,67.1 2121.71,87.997 2152.5,113 C2183.35,138.059 2211.28,175.469 2226.48,197.635 " fill="none" id="FA-UC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2046.18,50.499,2052.712,57.8701,2050.7301,52.5718,2056.0284,50.5899,2046.18,50.499" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2229.35,201.857,2227.6106,192.1629,2226.5443,197.7184,2220.9889,196.6521,2229.35,201.857" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3aa4761357b1ccb9e710ebbd7dd35854]
+link FA to Aktoren--><g id="link_FA_Aktoren"><path d="M1891.73,37.852 C1737.47,51.199 1443.67,86.617 1209.5,174 C1192.02,180.523 1173.94,191.283 1160.41,200.279 " fill="none" id="FA-Aktoren" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1897.16,37.387,1887.8503,34.1729,1892.1784,37.8155,1888.5359,42.1435,1897.16,37.387" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1156,203.254,1165.6971,201.5315,1160.1435,200.4555,1161.2195,194.9019,1156,203.254" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7ca7f25f303858f72b462e26d8a2a31f]
+link TF to TS--><g id="link_TF_TS"><path d="M1705.62,233.084 C1718.59,241.143 1734.87,251.19 1749.5,260 C1834.28,311.046 1935.35,369.7692 1984.58,398.2362 " fill="none" id="TF-TS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1701.36,230.432,1706.8868,238.584,1705.6048,233.0743,1711.1145,231.7923,1701.36,230.432" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1989.18,400.8954,1983.3869,392.9305,1984.8502,398.3948,1979.3859,399.8581,1989.18,400.8954" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a582433b24d43d4c8e0b89ef6bbcc1f4]
+link TE to Twig--><g id="link_TE_Twig"><path d="M797.5,53.646 C797.5,90.74 797.5,162.804 797.5,197.048 " fill="none" id="TE-Twig" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="797.5,48.624,793.5,57.624,797.5,53.624,801.5,57.624,797.5,48.624" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="797.5,202.208,801.5,193.208,797.5,197.208,793.5,193.208,797.5,202.208" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[71451727cb0757a4e25dc00b70c799fe]
+@startuml
+' ### Vorgegebene Begriffe ###
+(SSR)
+(CSR)
+(Template-Engine) as (TE)
+(Use-Case) as (UC)
+(Aktoren)
+(Funktionale Anforderung) as (FA)
+(Testszenario) as (TS)
+(Testfall) as (TF)
+
+' ### Hilfsbegriffe ###
+(Rendering)
+(Twig)
+
+' ### Map ###
+(Rendering) <- - -> (SSR)
+(Rendering) <- - -> (CSR)
+(SSR) <- - -> (CSR)
+
+(FA) <- - -> (TS)
+(FA) <- - -> (TF)
+(FA) <- - -> (UC)
+(FA) <- - -> (Aktoren)
+(TF) <- - -> (TS)
+
+(TE) <- - -> (Twig)
+
+' ### Notes ###
+note right of (Rendering)
+  Code in eine Webseite umwandeln
+end note
+
+note right of (SSR)
+  Server-Side Rendering, die Webseite wird auf dem
+  Server gerendert.
+  Z.B. PHP, wird auf dem Server
+  kompiliert und anschliessend als HTML-Datei
+  an den Client geschickt.
+end note
+
+note right of (CSR)
+  Client-Side Rendering, die Webseite wird auf dem
+  Client gerendert.
+  Es wird eine einzige HTML-Datei geschickt, und mit JavaScript
+  gerendert.
+end note
+
+note right of (TE)
+  Eine Template-Engine ist eine Vorlagen-Datei/Struktur,
+  die Platzhalter mit Inhalt ersetzen kann.
+end note
+
+note right of (Twig)
+  Template-Engine für PHP
+end note
+
+note right of (FA)
+  Eine Eigenschaft/Leistung die
+  ein Programm erreichen muss.
+end note
+
+note right of (Aktoren)
+  Eine Rolle in einem Programm.
+  Jede Rolle hat andere Funktionen und Berechtigungen.
+  Z.B. kann der Aktor "Admin" in einem Programm
+  andere Aktoren und das Programm verwalten.
+  Ein Aktor "Gast" könnte nur Daten lesen.
+end note
+
+note right of (TF)
+  Ein Test auf Funktionen in einem Programm.
+  Z.B. kann sich ein User anmelden.
+end note
+
+note right of (TS)
+  Eine Kombination aus mehreren Testfällen.
+  Z.B. User kann neuen Auftrag erfassen.
+  Dafür braucht es den Testfall "User kann sich anmelden"
+  und "Auftrag erfassen erfolgreich".
+end note
+
+note right of (UC)
+  Use-Case ist eine Beschreibung,
+  was ein Programm machen soll.
+end note
+@enduml
+
+@startuml
+(SSR)
+(CSR)
+(Template-Engine) as (TE)
+(Use-Case) as (UC)
+(Aktoren)
+(Funktionale Anforderung) as (FA)
+(Testszenario) as (TS)
+(Testfall) as (TF)
+
+(Rendering)
+(Twig)
+
+(Rendering) <- - -> (SSR)
+(Rendering) <- - -> (CSR)
+(SSR) <- - -> (CSR)
+
+(FA) <- - -> (TS)
+(FA) <- - -> (TF)
+(FA) <- - -> (UC)
+(FA) <- - -> (Aktoren)
+(TF) <- - -> (TS)
+
+(TE) <- - -> (Twig)
+
+note right of (Rendering)
+  Code in eine Webseite umwandeln
+end note
+
+note right of (SSR)
+  Server-Side Rendering, die Webseite wird auf dem
+  Server gerendert.
+  Z.B. PHP, wird auf dem Server
+  kompiliert und anschliessend als HTML-Datei
+  an den Client geschickt.
+end note
+
+note right of (CSR)
+  Client-Side Rendering, die Webseite wird auf dem
+  Client gerendert.
+  Es wird eine einzige HTML-Datei geschickt, und mit JavaScript
+  gerendert.
+end note
+
+note right of (TE)
+  Eine Template-Engine ist eine Vorlagen-Datei/Struktur,
+  die Platzhalter mit Inhalt ersetzen kann.
+end note
+
+note right of (Twig)
+  Template-Engine für PHP
+end note
+
+note right of (FA)
+  Eine Eigenschaft/Leistung die
+  ein Programm erreichen muss.
+end note
+
+note right of (Aktoren)
+  Eine Rolle in einem Programm.
+  Jede Rolle hat andere Funktionen und Berechtigungen.
+  Z.B. kann der Aktor "Admin" in einem Programm
+  andere Aktoren und das Programm verwalten.
+  Ein Aktor "Gast" könnte nur Daten lesen.
+end note
+
+note right of (TF)
+  Ein Test auf Funktionen in einem Programm.
+  Z.B. kann sich ein User anmelden.
+end note
+
+note right of (TS)
+  Eine Kombination aus mehreren Testfällen.
+  Z.B. User kann neuen Auftrag erfassen.
+  Dafür braucht es den Testfall "User kann sich anmelden"
+  und "Auftrag erfassen erfolgreich".
+end note
+
+note right of (UC)
+  Use-Case ist eine Beschreibung,
+  was ein Programm machen soll.
+end note
+@enduml
+
+PlantUML version 1.2022.13beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

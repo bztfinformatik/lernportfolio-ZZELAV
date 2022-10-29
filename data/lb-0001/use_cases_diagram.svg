@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="399px" preserveAspectRatio="none" style="width:443px;height:399px;background:#FFFFFF;" version="1.1" viewBox="0 0 443 399" width="443px" zoomAndPan="magnify"><defs/><g><!--MD5=[4e460df1ce0b9a79590737e2532390db]
+cluster Use-Cases--><g id="cluster_Use-Cases"><rect fill="none" height="386" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="321" x="116" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="235.5" y="21.9951">Use-Cases</text></g><g id="elem_UC1"><ellipse cx="276.3276" cy="65.7655" fill="#F1F1F1" rx="106.8276" ry="23.7655" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="186.8276" y="68.6122">UC-001, Auftrag erfassen</text></g><g id="elem_UC2"><ellipse cx="276.2578" cy="155.1516" fill="#F1F1F1" rx="138.7578" ry="30.1516" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="247" x="152.7578" y="157.9982">UC-002, Status von Auftrag ändern</text></g><g id="elem_UC3"><ellipse cx="276.4927" cy="251.7985" fill="#F1F1F1" rx="144.4927" ry="31.2985" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="259" x="146.9927" y="254.6452">UC-003, Auftragsnotizen hinzufügen</text></g><g id="elem_UC4"><ellipse cx="276.5217" cy="348.1043" fill="#F1F1F1" rx="133.5217" ry="29.1043" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="158.5217" y="350.951">UC-004, Neuer Benutzer erfassen</text></g><!--MD5=[5d12e840fb55afd9ed7b3559a638e8f7]
+entity b--><g id="elem_b"><ellipse cx="39" cy="125.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M39,133.5 L39,160.5 M26,141.5 L52,141.5 M39,160.5 L26,175.5 M39,160.5 L52,175.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="6" y="189.9951">Benutzer</text></g><!--MD5=[f83ae91a690dfc657e1c5fbbd818f13d]
+entity a--><g id="elem_a"><ellipse cx="39" cy="318.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M39,326.5 L39,353.5 M26,334.5 L52,334.5 M39,353.5 L26,368.5 M39,353.5 L52,368.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="16" y="382.9951">Admin</text></g><!--MD5=[ca187429e38e3501fa22621b551a0347]
+link b to UC1--><g id="link_b_UC1"><path d="M72.033,128.676 C82.9215,120.767 95.5067,112.69 108,107 C132.138,96.007 159.63,87.712 185.263,81.565 " fill="none" id="b-to-UC1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="190.363,80.364,180.6859,78.5326,185.496,81.5097,182.519,86.3198,190.363,80.364" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2cfc94702f9a7c33c29db818040fd395]
+link b to UC2--><g id="link_b_UC2"><path d="M72.2515,155 C88.6475,155 109.842,155 132.336,155 " fill="none" id="b-to-UC2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="137.46,155,128.46,151,132.46,155,128.46,159,137.46,155" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[29fe63278c169e37c11b180a1b16371e]
+link b to UC3--><g id="link_b_UC3"><path d="M72.2725,180.387 C83.1754,188.108 95.7086,196.101 108,202 C128.604,211.888 151.58,220.285 173.749,227.212 " fill="none" id="b-to-UC3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="178.764,228.759,171.3432,222.2835,173.9862,227.285,168.9848,229.9279,178.764,228.759" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ced53a2e1ee50106e9ee477c87b6a0fe]
+link a to UC4--><g id="link_a_UC4"><path d="M62.1553,348 C80.5018,348 108.26,348 137.742,348 " fill="none" id="a-to-UC4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="142.874,348,133.874,344,137.874,348,133.874,352,142.874,348" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a37c76f8bb4bec3324b514807cef71eb]
+@startuml
+left to right direction
+
+actor Benutzer as b
+actor Admin as a
+
+rectangle Use-Cases {
+  usecase "UC-001, Auftrag erfassen" as UC1
+  usecase "UC-002, Status von Auftrag ändern" as UC2
+  usecase "UC-003, Auftragsnotizen hinzufügen" as UC3
+  usecase "UC-004, Neuer Benutzer erfassen" as UC4
+}
+
+b - -> UC1
+b - -> UC2
+b - -> UC3
+a - -> UC4
+@enduml
+
+PlantUML version 1.2022.13beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
