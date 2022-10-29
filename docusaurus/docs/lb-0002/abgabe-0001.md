@@ -3,18 +3,13 @@ title: "Abgabe 1"
 tags:
   - LB2
   - Abgabe 1
-  - Neuralgische Punkte
-  - Zusammenhänge / Verknüpfungen
-  - Qualität des Netzes
-  - Fachlich richtige Verknüpfungen
+  - Concept Map
 ---
 
 # Abgabe 1
 
-## 1 Neuralgische Punkte
+## 1 Concept Map
 
-## 2 Zusammenhänge / Verknüpfungen
+![Concept Map](/data/lb-0002/concept_map.svg)
 
-## 3 Qualität des Netzes
-
-## 4 Fachlich richtige Verknüpfungen
+[Source Code](/appendix/lb2_concept_map)
