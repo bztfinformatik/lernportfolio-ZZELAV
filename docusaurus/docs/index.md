@@ -37,3 +37,9 @@ pagination_next: null
 
 > [**Tag 8**](./tag-0008/index.md)  
 > Vorbereitung LB1 / LB2
+
+> [**LB1**](./lb-0001/index.md)  
+> LB1
+
+> [**LB2**](./lb-0002/index.md)  
+> LB2
