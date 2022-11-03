@@ -38,6 +38,13 @@ pagination_next: null
 > [**Tag 8**](./tag-0008/index.md)  
 > Vorbereitung LB1 / LB2
 
+> [**Tag 9**](./tag-0009/index.md)  
+> LB1 / LB2  
+> Input Validierung
+
+> [**Tag 10**](./tag-0010/index.md)  
+> LB1 / LB2
+
 > [**LB1**](./lb-0001/index.md)  
 > LB1
 

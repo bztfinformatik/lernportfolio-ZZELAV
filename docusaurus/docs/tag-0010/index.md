@@ -8,7 +8,7 @@ tags:
   - LB1 / LB2
 ---
 
-# Tag 9
+# Tag 10
 
 :::info
 Arbeiten an LB1 / LB2
