@@ -91,3 +91,87 @@ end note
 
 @enduml
 ```
+
+```plantuml
+@startuml
+
+' ### Vorgegebene Begriffe ###
+(if-Funktion bei Twig) as (if)
+(Mocking von Daten) as (mock)
+(Rendern von View) as (rendV)
+(empty-Funktion) as (empFunc)
+(sanitizen von Daten) as (san)
+
+' ### Hilfsbegriffe ###
+(Twig)
+(PHP)
+(Model)
+
+' ### Map ###
+(Twig) <---> (if) : {% if %}
+(Twig) <---> (rendV) : Mit Twig eine View (Template) erstellen
+
+(PHP) <---> (mock) : Fakedaten mittels Array erstellen
+(PHP) <---> (empFunc) : überprüfen ob Variable leer ist
+(PHP) <---> (san) : Mit FILTER_SANITIZE_* Eingabe reinigen
+
+(rendV) <---> (mock) : Die Mocking-Daten in die View laden
+
+(mock) <---> (Model) : Die Daten werden im Model erstellt
+
+(empFunc) <---> (if) : empty() in if nutzen um zu überprüfen
+
+' ### Notes ###
+note bottom of (if)
+  In Twig können if-Funktionen
+  wie im PHP geschrieben werden.
+  Somit kann bei einem True-Statement
+  eine andere Ausgabe angezeigt
+  werden, als bei einem False-Statement.
+end note
+
+note right of (mock)
+  Mocking ist das vortäuschen von Daten.
+  Somit kann beim entwickeln von
+  einem Programm ohne komplexe Datenbank
+  gearbeitet werden.
+end note
+
+note right of (rendV)
+  Die View ist die Benutzeröberfläche,
+  welche der Enduser zu sehen bekommt.
+  Diese wird bei Twig in HTML geschrieben.
+  Mithilfe vom Controller und des Models
+  werden dann die Daten aus einer Datenbank
+  in die View geladen.
+end note
+
+note right of (empFunc)
+  die empty-Funktion überprüft ob eine Variable leer ist.
+  Trifft dies zu, wird true zurückgegeben.
+  Z.B. kann überprüft werden ob in der Variable
+  $username etwas enthalten ist.
+  
+  $username = "";
+  if (empty($username)) { // username leer => true
+    echo "Username is empty";
+  }
+end note
+
+note right of (san)
+  Mit dem Sanitizen können mit Filtern Inputs
+  bereinigt werden. Das sanitizen ist wichtig für
+  die Sicherheit, z.B. für eine Datenbank (SQL-Injection).
+  Somit wird aus "<h1>Hello World</h1>"
+  mit dem Filter FILTER_SANITIZE_STRING
+  "Hello World".
+  
+  <?php
+  $str = "<h1>Hello World!</h1>";
+  $newstr = filter_var($str, FILTER_SANITIZE_STRING);
+  echo $newstr; // Gibt "Hello World" aus
+  ?>
+end note
+
+@enduml
+```
