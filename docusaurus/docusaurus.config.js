@@ -157,12 +157,12 @@ const config = {
             ],
           },
         ],
-        copyright: `v1.11<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
+        copyright: `v1.12<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['powershell', 'java', 'php', 'docker', 'markup'],
+        additionalLanguages: ['powershell', 'java', 'php', 'docker', 'markup', 'sql'],
       },
     }),
 };
