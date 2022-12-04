@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="643px" preserveAspectRatio="none" style="width:2318px;height:643px;background:#FFFFFF;" version="1.1" viewBox="0 0 2318 643" width="2318px" zoomAndPan="magnify"><defs/><g><g id="elem_mysql-e"><ellipse cx="364.6963" cy="228.4393" fill="#F1F1F1" rx="80.1963" ry="18.4393" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="303.6039" y="231.7979">mysql-Extension</text></g><g id="elem_mysqli-e"><ellipse cx="439.3658" cy="484.2732" fill="#F1F1F1" rx="81.8658" ry="18.7732" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="376.8805" y="487.4463">mysqli-Extension</text></g><g id="elem_PDO"><ellipse cx="753.4074" cy="228.5243" fill="#F1F1F1" rx="33.4074" ry="14.5243" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="737.6738" y="231.4595">PDO</text></g><g id="elem_PostgreSQL"><ellipse cx="1122.3142" cy="352.2628" fill="#F1F1F1" rx="66.8142" ry="15.7628" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="1077.3142" y="356.0104">PostgreSQL</text></g><g id="elem_MySQL"><ellipse cx="1450.3836" cy="352.6478" fill="#F1F1F1" rx="45.8836" ry="14.6478" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="1423.3836" y="356.3954">MySQL</text></g><g id="elem_prepState"><ellipse cx="1793.6163" cy="228.7233" fill="#F1F1F1" rx="94.1163" ry="21.2233" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="1718.1163" y="231.5699">Prepared-Statement</text></g><g id="elem_sql-inj"><ellipse cx="2097.5529" cy="228.7106" fill="#F1F1F1" rx="71.5529" ry="16.7106" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="2046.0529" y="232.4581">SQL-Injection</text></g><g id="elem_dbconn"><ellipse cx="525.6147" cy="28.1229" fill="#F1F1F1" rx="98.6147" ry="22.1229" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="445.1147" y="30.9696">Datenbankverbindung</text></g><g id="elem_DBMS"><ellipse cx="1268.4072" cy="125.5911" fill="#F1F1F1" rx="41.4072" ry="14.5911" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1244.482" y="129.3206">DBMS</text></g><g id="elem_Security"><ellipse cx="1945.5937" cy="28.2277" fill="#F1F1F1" rx="54.0937" ry="14.7277" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1913.0937" y="31.9753">Security</text></g><g id="elem_GMN20"><path d="M6,201 L6,256.3984 A0,0 0 0 0 6,256.3984 L249,256.3984 A0,0 0 0 0 249,256.3984 L249,232.5 L284.358,228.5 L249,224.5 L249,211 L239,201 L6,201 A0,0 0 0 0 6,201 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M239,201 L239,211 L249,211 L239,201 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="12" y="218.0669">Ist eine veraltete Extension,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="12" y="233.1997">die nicht mehr genutzt werden soll</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="12" y="248.3325">und kann kein OOP.</text></g><g id="elem_GMN23"><path d="M299.5,581 L299.5,636.3984 A0,0 0 0 0 299.5,636.3984 L579.5,636.3984 A0,0 0 0 0 579.5,636.3984 L579.5,591 L569.5,581 L443.5,581 L439.5,503.502 L435.5,581 L299.5,581 A0,0 0 0 0 299.5,581 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M569.5,581 L569.5,591 L579.5,591 L569.5,581 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="259" x="305.5" y="598.0669">Ist die Weiterentwicklung von mysql und</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="305.5" y="613.1997">OOP ist möglich.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="305.5" y="628.3325">Das i steht für improved.</text></g><g id="elem_GMN26"><path d="M579,317 L579,387.5313 A0,0 0 0 0 579,387.5313 L1020,387.5313 A0,0 0 0 0 1020,387.5313 L1020,327 L1010,317 L790.441,317 L758.599,243.022 L782.441,317 L579,317 A0,0 0 0 0 579,317 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1010,317 L1010,327 L1020,327 L1010,317 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="585" y="334.0669">PDO ist rein OOP und ist bekannt für die</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="278" x="585" y="349.1997">hohe Performance. Der Vorteil von PDO ist,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="298" x="585" y="364.3325">dass die Statements zuerst einmal vorbereitet</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="420" x="585" y="379.4653">werden und anschliessend mehrmals ausgeführt werden können.</text></g><g id="elem_GMN29"><path d="M961,449 L961,519.5313 A0,0 0 0 0 961,519.5313 L1258,519.5313 A0,0 0 0 0 1258,519.5313 L1258,459 L1248,449 L1116.96,449 L1120.98,368.667 L1108.96,449 L961,449 A0,0 0 0 0 961,449 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1248,449 L1248,459 L1258,459 L1248,449 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="967" y="466.0669">Open Source,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="201" x="967" y="481.1997">wurde in den 1980er entwickelt</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="202" x="967" y="496.3325">und seit dem Jahr 1997 von der</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="276" x="967" y="511.4653">Open-Source-Community weiterentwickelt.</text></g><g id="elem_GMN32"><path d="M1293,449 L1293,519.5313 A0,0 0 0 0 1293,519.5313 L1656,519.5313 A0,0 0 0 0 1656,519.5313 L1656,459 L1646,449 L1472.09,449 L1453.07,367.412 L1464.09,449 L1293,449 A0,0 0 0 0 1293,449 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1646,449 L1646,459 L1656,459 L1646,449 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="342" x="1299" y="466.0669">Ist das am verbreiteste Management-System für SQL</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="284" x="1299" y="481.1997">und ist Open-Source. Es ist für verschiedene</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="1299" y="496.3325">Betriebssysteme verfügbar und bildet</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="323" x="1299" y="511.4653">eine Grundlage für dynamische Webapplikationen.</text></g><g id="elem_GMN35"><path d="M1532,317 L1532,387.5313 A0,0 0 0 0 1532,387.5313 L1951,387.5313 A0,0 0 0 0 1951,387.5313 L1951,327 L1941,317 L1760.21,317 L1784.91,249.646 L1752.21,317 L1532,317 A0,0 0 0 0 1532,317 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1941,317 L1941,327 L1951,327 L1941,317 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="291" x="1538" y="334.0669">Mit Prepared-Statements können SQL-Querys</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="250" x="1538" y="349.1997">mit hoher Effizienz ausgeführt werden.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="398" x="1538" y="364.3325">Die Query wird dabei ohne Daten an die Datenbank gesendet.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="1538" y="379.4653">Die Platzhalter werden später eingefüllt.</text></g><g id="elem_GMN38"><path d="M1986,325 L1986,380.3984 A0,0 0 0 0 1986,380.3984 L2311,380.3984 A0,0 0 0 0 2311,380.3984 L2311,335 L2301,325 L2141.25,325 L2103.96,244.951 L2133.25,325 L1986,325 A0,0 0 0 0 1986,325 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M2301,325 L2301,335 L2311,335 L2301,325 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="300" x="1992" y="342.0669">Bei der SQL-Injection wird eine Sicherheitslücke</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="304" x="1992" y="357.1997">in SQL-Datenbanken ausgenutzt. Dabei werden</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="1992" y="372.3325">Daten bösartig gelöscht oder verändert.</text></g><g id="elem_GMN41"><path d="M1155.5,15.5 L1155.5,40.6328 A0,0 0 0 0 1155.5,40.6328 L1264.5,40.6328 L1268.5,110.843 L1272.5,40.6328 L1381.5,40.6328 A0,0 0 0 0 1381.5,40.6328 L1381.5,25.5 L1371.5,15.5 L1155.5,15.5 A0,0 0 0 0 1155.5,15.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1371.5,15.5 L1371.5,25.5 L1381.5,25.5 L1371.5,15.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="1161.5" y="32.5669">Datenbankmanagementsystem</text></g><!--MD5=[978e4906409064a4f111a5ce5aef175c]
+link dbconn to mysql-e--><g id="link_dbconn_mysql-e"><path d="M500.211,53.727 C484.455,69.576 464.097,90.879 447.5,111 C421.466,142.561 394.566,181.748 378.696,205.675 " fill="none" id="dbconn-mysql-e" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="504.112,49.82,494.9232,53.3648,500.58,53.3591,500.5858,59.016,504.112,49.82" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="375.864,209.96,384.1636,204.6574,378.621,205.7888,377.4896,200.2462,375.864,209.96" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="448.5" y="130.0669">veraltet</text></g><!--MD5=[f5ffbda10c09e84f15194dc928f116e3]
+link dbconn to mysqli-e--><g id="link_dbconn_mysqli-e"><path d="M525.5,55.444 C525.5,74.614 525.5,101.161 525.5,124.5 C525.5,124.5 525.5,124.5 525.5,353.5 C525.5,397.938 490.113,438.857 464.738,462.487 " fill="none" id="dbconn-mysqli-e" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="525.5,50.241,521.5,59.241,525.5,55.241,529.5,59.241,525.5,50.241" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="460.758,466.129,470.0978,463.0036,464.4465,462.7534,464.6968,457.102,460.758,466.129" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="526.5" y="233.0669">new mysqli()</text></g><!--MD5=[11ebfff1d834fa38f19e69b79eb813a8]
+link dbconn to PDO--><g id="link_dbconn_PDO"><path d="M553.042,52.978 C600.231,94.062 695.308,176.837 735.212,211.578 " fill="none" id="dbconn-PDO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="549.041,49.495,553.2015,58.4219,552.8118,52.7785,558.4552,52.3887,549.041,49.495" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="739.349,215.18,735.1868,206.2539,735.5776,211.8972,729.9343,212.288,739.349,215.18" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="652.5" y="130.0669">new PDO(), $pdo-&gt;prepare()</text></g><!--MD5=[8f57a8a5d55c1ffe1ef78df38a660f14]
+link mysql-e to mysqli-e--><g id="link_mysql-e_mysqli-e"><path d="M363.556,247.171 C362.529,277.046 362.866,339.062 379.5,388 C388.873,415.577 407.611,443.349 421.667,461.78 " fill="none" id="mysql-e-to-mysqli-e" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="424.769,465.797,422.4343,456.2289,421.7131,461.8396,416.1024,461.1184,424.769,465.797" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="380.5" y="357.0669">Weiterentwicklung</text></g><!--MD5=[2b7601256a5f218bc45e59066ca9e36a]
+link DBMS to PostgreSQL--><g id="link_DBMS_PostgreSQL"><path d="M1256.93,144.337 C1229.92,185.956 1162.93,289.197 1135.02,332.21 " fill="none" id="DBMS-PostgreSQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1259.8,139.901,1251.549,145.2789,1257.0811,144.0971,1258.2628,149.6292,1259.8,139.901" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1132.28,336.423,1140.5406,331.0599,1135.0064,332.2318,1133.8346,326.6976,1132.28,336.423" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="1220.5" y="233.0669">objektrelational</text></g><!--MD5=[bb67535b74b5371acec46f08a45ca531]
+link DBMS to MySQL--><g id="link_DBMS_MySQL"><path d="M1282.26,143.516 C1315.95,185.159 1402.26,291.864 1436.35,334.004 " fill="none" id="DBMS-MySQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1279.07,139.569,1281.624,149.0809,1282.2161,143.4552,1287.8419,144.0472,1279.07,139.569" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1439.67,338.111,1437.1331,328.5945,1436.5309,334.2192,1430.9062,333.617,1439.67,338.111" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="1374.5" y="233.0669">relational</text></g><!--MD5=[58ae1bab83b5a7df9304a70ffc816abf]
+link Security to prepState--><g id="link_Security_prepState"><path d="M1932.03,46.589 C1904.75,82.214 1842.93,162.943 1811.94,203.418 " fill="none" id="Security-prepState" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1935.29,42.332,1926.6433,47.0473,1932.2508,46.3023,1932.9958,51.9099,1935.29,42.332" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1808.68,207.678,1817.3267,202.9627,1811.7192,203.7077,1810.9742,198.1001,1808.68,207.678" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="1883.5" y="130.0669">Platzhalter-Daten</text></g><!--MD5=[2eb0311c76e4e1f85eab78ac9665e517]
+link Security to sql-inj--><g id="link_Security_sql-inj"><path d="M1959.1,46.761 C1987.54,83.896 2053.08,169.496 2082.61,208.051 " fill="none" id="Security-sql-inj" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1955.71,42.332,1958.0042,51.9099,1958.7492,46.3023,1964.3567,47.0473,1955.71,42.332" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2085.69,212.074,2083.3958,202.4961,2082.6508,208.1037,2077.0433,207.3587,2085.69,212.074" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="2030.5" y="130.0669">Sicherheitslücke ausnutzen</text></g><!--MD5=[563aadb21917e38d129c79d1a766482b]
+@startuml
+' ### Vorgegebene Begriffe ###
+(mysql-Extension) as (mysql-e)
+(mysqli-Extension) as (mysqli-e)
+(PDO)
+(PostgreSQL)
+(MySQL)
+(Prepared-Statement) as (prepState)
+(SQL-Injection) as (sql-inj)
+
+' ### Hilfsbegriffe ###
+(Datenbankverbindung) as (dbconn)
+(DBMS)
+(Security)
+
+' ### Map ###
+(dbconn) <- - -> (mysql-e) : veraltet
+(dbconn) <- - -> (mysqli-e) : new mysqli()
+(dbconn) <- - -> (PDO) : new PDO(), $pdo->prepare()
+
+(mysql-e) - - -> (mysqli-e) : Weiterentwicklung
+
+(DBMS) <- - -> (PostgreSQL) : objektrelational
+(DBMS) <- - -> (MySQL) : relational
+
+(Security) <- - -> (prepState) : Platzhalter-Daten
+(Security) <- - -> (sql-inj) : Sicherheitslücke ausnutzen
+
+' ### Notes ###
+note left of (mysql-e)
+  Ist eine veraltete Extension,
+  die nicht mehr genutzt werden soll
+  und kann kein OOP.
+end note
+
+note bottom of (mysqli-e)
+  Ist die Weiterentwicklung von mysql und
+  OOP ist möglich.
+  Das i steht für improved.
+end note
+
+note bottom of (PDO)
+  PDO ist rein OOP und ist bekannt für die
+  hohe Performance. Der Vorteil von PDO ist,
+  dass die Statements zuerst einmal vorbereitet
+  werden und anschliessend mehrmals ausgeführt werden können.
+end note
+
+note bottom of (PostgreSQL)
+  Open Source,
+  wurde in den 1980er entwickelt
+  und seit dem Jahr 1997 von der
+  Open-Source-Community weiterentwickelt.
+end note
+
+note bottom of (MySQL)
+  Ist das am verbreiteste Management-System für SQL
+  und ist Open-Source. Es ist für verschiedene
+  Betriebssysteme verfügbar und bildet
+  eine Grundlage für dynamische Webapplikationen.
+end note
+
+note bottom of (prepState)
+  Mit Prepared-Statements können SQL-Querys
+  mit hoher Effizienz ausgeführt werden.
+  Die Query wird dabei ohne Daten an die Datenbank gesendet.
+  Die Platzhalter werden später eingefüllt.
+end note
+
+note bottom of (sql-inj)
+  Bei der SQL-Injection wird eine Sicherheitslücke
+  in SQL-Datenbanken ausgenutzt. Dabei werden
+  Daten bösartig gelöscht oder verändert.
+end note
+
+note top of (DBMS)
+  Datenbankmanagementsystem
+end note
+@enduml
+
+@startuml
+(mysql-Extension) as (mysql-e)
+(mysqli-Extension) as (mysqli-e)
+(PDO)
+(PostgreSQL)
+(MySQL)
+(Prepared-Statement) as (prepState)
+(SQL-Injection) as (sql-inj)
+
+(Datenbankverbindung) as (dbconn)
+(DBMS)
+(Security)
+
+(dbconn) <- - -> (mysql-e) : veraltet
+(dbconn) <- - -> (mysqli-e) : new mysqli()
+(dbconn) <- - -> (PDO) : new PDO(), $pdo->prepare()
+
+(mysql-e) - - -> (mysqli-e) : Weiterentwicklung
+
+(DBMS) <- - -> (PostgreSQL) : objektrelational
+(DBMS) <- - -> (MySQL) : relational
+
+(Security) <- - -> (prepState) : Platzhalter-Daten
+(Security) <- - -> (sql-inj) : Sicherheitslücke ausnutzen
+
+note left of (mysql-e)
+  Ist eine veraltete Extension,
+  die nicht mehr genutzt werden soll
+  und kann kein OOP.
+end note
+
+note bottom of (mysqli-e)
+  Ist die Weiterentwicklung von mysql und
+  OOP ist möglich.
+  Das i steht für improved.
+end note
+
+note bottom of (PDO)
+  PDO ist rein OOP und ist bekannt für die
+  hohe Performance. Der Vorteil von PDO ist,
+  dass die Statements zuerst einmal vorbereitet
+  werden und anschliessend mehrmals ausgeführt werden können.
+end note
+
+note bottom of (PostgreSQL)
+  Open Source,
+  wurde in den 1980er entwickelt
+  und seit dem Jahr 1997 von der
+  Open-Source-Community weiterentwickelt.
+end note
+
+note bottom of (MySQL)
+  Ist das am verbreiteste Management-System für SQL
+  und ist Open-Source. Es ist für verschiedene
+  Betriebssysteme verfügbar und bildet
+  eine Grundlage für dynamische Webapplikationen.
+end note
+
+note bottom of (prepState)
+  Mit Prepared-Statements können SQL-Querys
+  mit hoher Effizienz ausgeführt werden.
+  Die Query wird dabei ohne Daten an die Datenbank gesendet.
+  Die Platzhalter werden später eingefüllt.
+end note
+
+note bottom of (sql-inj)
+  Bei der SQL-Injection wird eine Sicherheitslücke
+  in SQL-Datenbanken ausgenutzt. Dabei werden
+  Daten bösartig gelöscht oder verändert.
+end note
+
+note top of (DBMS)
+  Datenbankmanagementsystem
+end note
+@enduml
+
+PlantUML version 1.2022.14beta7(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
