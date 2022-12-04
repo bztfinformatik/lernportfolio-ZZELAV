@@ -1,12 +1,13 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* text font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-/* You can override the default Infima variables here. */
+/* code font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+/* DOCUSAURUS/INFIMA VARIABLES */
+
 :root {
   --ifm-color-primary: #3578e5;
   --ifm-color-primary-dark: #1d68e1;
@@ -15,140 +16,129 @@
   --ifm-color-primary-light: #4e89e8;
   --ifm-color-primary-lighter: #5a91ea;
   --ifm-color-primary-lightest: #80aaef;
-  --ifm-color-primary-black: #7b7f8a;
   --ifm-code-font-size: 90%;
   --ifm-code-border-radius: 0;
   --ifm-alert-border-radius: 0;
-
-  font-family: 'Open Sans', sans-serif;
+  --ifm-font-family-base: "Roboto", sans-serif;
+  --ifm-font-family-monospace: "Roboto Mono", monospace;
+  --ifm-font-color-footer: #7b7f8a;
+  --ifm-heading-font-weight: normal;
+  --ifm-heading1-font-size: 2.5rem;
+  --ifm-heading2-font-size: 2rem;
+  --ifm-heading3-font-size: 1.8rem;
+  --ifm-heading4-font-size: 1.5rem;
+  --ifm-heading5-font-size: 1.3rem;
+  --ifm-heading6-font-size: 1rem;
 }
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-html[data-theme='dark'] {
-  --ifm-background-color: #20232A;
+html[data-theme="dark"] {
+  --ifm-background-color: #20232a;
   --ifm-background-surface-color: #1c1d22;
 }
 
+/* HEADINGS */
+
 h1 {
-  font-size: 2.5rem !important;
-  font-weight: normal;
+  font-size: var(--ifm-heading1-font-size);
 }
-
 h2 {
-  font-size: 2rem !important;
-  font-weight: normal;
+  font-size: var(--ifm-heading2-font-size);
 }
-
 h3 {
-  font-size: 1.8rem !important;
-  font-weight: normal;
+  font-size: var(--ifm-heading3-font-size);
 }
-
 h4 {
-  font-size: 1.5rem !important;
-  font-weight: normal;
+  font-size: var(--ifm-heading4-font-size);
 }
-
 h5 {
-  font-size: 1.3rem !important;
-  font-weight: normal;
+  font-size: var(--ifm-heading5-font-size);
 }
-
 h6 {
-  font-size: 1rem !important;
-  font-weight: normal;
+  font-size: var(--ifm-heading6-font-size);
 }
 
-.footer {
-  background: var(--ifm-background-surface-color);
+/* NAVBAR */
+
+.navbar__title {
+  letter-spacing: 0.07em;
 }
 
-.footer .row .footer__title {
-  text-transform: uppercase;
-  color: var(--ifm-color-primary-black);
+.header-github-link:hover {
+  opacity: 0.6;
+}
+.header-github-link:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/data/github_logo_light.svg) no-repeat;
+}
+html[data-theme="dark"] .header-github-link:before {
+  background: url(/data/github_logo_dark.svg) no-repeat;
+}
+.header-moodle-link:hover {
+  opacity: 0.6;
+}
+.header-moodle-link:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/data/moodle_logo_light.svg) no-repeat;
+}
+html[data-theme="dark"] .header-moodle-link:before {
+  background: url(/data/moodle_logo_dark.svg) no-repeat;
 }
 
-.table-of-contents {
-  padding-left: 1rem;
-}
-
-.table-of-contents__link--active {
-  color: inherit;
-  font-weight: bold;
-  border-left: .3rem solid var(--ifm-color-primary);
-  padding-left: .5rem;
-  margin-left: -.8rem;
-  letter-spacing: 1px;
-}
+/* SIDEBAR */
 
 .menu li {
   margin-right: 8px;
 }
 
+/* MAIN */
+
 .prism-code,
 .codeBlockTitle_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
-  border-left: .3rem solid var(--ifm-color-primary);
+  border-left: 0.3rem solid var(--ifm-color-primary);
 }
-
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
-
-[data-theme='dark'] .docusaurus-highlight-code-line {
+[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
-
 img[alt="logo_module"] {
   width: 200px;
   float: right;
 }
 
-.header-github-link:hover {
-  opacity: 0.6;
+/* TOC */
+
+.table-of-contents {
+  padding-left: 1rem;
+}
+.table-of-contents__link--active {
+  color: inherit;
+  font-weight: bold;
+  border-left: 0.3rem solid var(--ifm-color-primary);
+  padding-left: 0.5rem;
+  margin-left: -0.8rem;
+  letter-spacing: 1px;
 }
 
-.header-github-link:before {
-  content: '';
-  width: 24px;
-  height: 24px;
-  display: flex;
-  background: url(/data/github_logo_light.svg) no-repeat;
+/* FOOTER */
+
+.footer {
+  background: var(--ifm-background-surface-color);
+}
+.footer .row .footer__title {
+  text-transform: uppercase;
+  color: var(--ifm-font-color-footer);
 }
 
-html[data-theme='dark'] .header-github-link:before {
-  background: url(/data/github_logo_dark.svg) no-repeat;
-}
+/* ######################################################################################################################################################### */
 
-.header-moodle-link:hover {
-  opacity: 0.6;
-}
-
-.header-moodle-link:before {
-  content: '';
-  width: 24px;
-  height: 24px;
-  display: flex;
-  background: url(/data/moodle_logo_light.svg) no-repeat;
-}
-
-html[data-theme='dark'] .header-moodle-link:before {
-  background: url(/data/moodle_logo_dark.svg) no-repeat;
-}
-
-img[alt="RAID"] {
-  height: 300px;
-  width: auto;
-}
-
-img[alt="PHPLogo"] {
-  width: 150px;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
-code {
-  font-family: 'Source Code Pro', monospace !important;
-}
+/* CUSTOM/ARTICLES */
