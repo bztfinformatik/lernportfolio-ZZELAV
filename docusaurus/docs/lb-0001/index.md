@@ -13,3 +13,7 @@ pagination_prev: null
 > [**Abgabe 2**](./abgabe-0002.md)  
 > ~10% Umsetzung funktionale Anforderungen (ohne DB)  
 > ~5% Clean Code Konventionen berücksichtigt
+
+> [**Abgabe 3**](./abgabe-0003.md)  
+> ~15% Funktionale Sicherheitsanforderungen berücksichtigt  
+> ~20% Teilsysteme / Schnittstellen sinnvoll gewählt (DB)
