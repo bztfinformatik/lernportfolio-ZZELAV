@@ -56,6 +56,11 @@ pagination_next: null
 > [**Tag 13**](./tag-0013/index.md)  
 > LB1 / LB2
 
+> [**Tag 14**](./tag-0014/index.md)  
+> LB1 / LB2  
+> Session  
+> Cookies
+
 > [**LB1**](./lb-0001/index.md)  
 > LB1
 
