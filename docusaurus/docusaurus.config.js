@@ -115,7 +115,7 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Links',
+            title: '// Links',
             items: [
               {
                 label: 'Home',
@@ -160,7 +160,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v1.14<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
+        copyright: `v1.15<br>Copyright © ${new Date().getFullYear()} Lernjournal, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
