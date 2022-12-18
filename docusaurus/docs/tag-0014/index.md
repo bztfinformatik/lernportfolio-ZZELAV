@@ -47,7 +47,7 @@ Um einen Cookie zu setzen muss folgendes genutzt werden:
 
 ```php
 setcookie("username","admin",0); // Dieser Cookie wird bis zum Ende der Session gespeichert.
-setcookie("email","admin@admin.ch",time()+(3600*24)) // Dieser Cookie wird 24 Stunden gespeichert (muss in Sekunden angegeben werden. 3600 Sekunden * 24 = 86400 Sekunden = 24 Stunden)
+setcookie("email","admin@admin.ch",time()+(3600*24)); // Dieser Cookie wird 24 Stunden gespeichert (muss in Sekunden angegeben werden. 3600 Sekunden * 24 = 86400 Sekunden = 24 Stunden)
 ```
 
 Cookie auslesen:  
