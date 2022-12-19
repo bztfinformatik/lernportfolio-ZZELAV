@@ -22,3 +22,9 @@ pagination_prev: null
 > ~30% Zusammenhänge / Verknüpfungen sind klar, aussagekräftig begründet  
 > ~20% Qualität des Netzes, bezogen auf netzartige Verknüpfungen (Keine lineare, kettenartige Verknüpfungen, Inseln oder Überschneidungen)  
 > ~20% Fachlich richtige Verknüpfungen in der Legeordnung
+
+> [**Abgabe 4**](./abgabe-0004.md)  
+> ~30% Vorgegebene Anzahl Begriffe erläutert und Zusammenhänge aufgezeigt / Neuralgische Punkte erkannt  
+> ~30% Zusammenhänge / Verknüpfungen sind klar, aussagekräftig begründet  
+> ~20% Qualität des Netzes, bezogen auf netzartige Verknüpfungen (Keine lineare, kettenartige Verknüpfungen, Inseln oder Überschneidungen)  
+> ~20% Fachlich richtige Verknüpfungen in der Legeordnung
