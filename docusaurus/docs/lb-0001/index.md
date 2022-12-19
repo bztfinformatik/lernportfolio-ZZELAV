@@ -17,3 +17,9 @@ pagination_prev: null
 > [**Abgabe 3**](./abgabe-0003.md)  
 > ~15% Funktionale Sicherheitsanforderungen berücksichtigt  
 > ~20% Teilsysteme / Schnittstellen sinnvoll gewählt (DB)
+
+> [**Abgabe 4**](./abgabe-0004.md)  
+> ~10% Umsetzung funktionale Anforderungen (mit Sessions/Cookies/Auth. etc.)  
+> ~5% Clean Code Konventionen berücksichtigt  
+> ~5% Testfälle sind formuliert und Testergebnisse festgehalten  
+> ~5% Zeitliche Vorgaben eingehalten (einmal nachrennen -> 1)
