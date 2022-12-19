@@ -114,6 +114,14 @@ img[alt="logo_module"] {
   width: 200px;
   float: right;
 }
+.hash-link::before {
+  content: "><" !important;
+  display: inline-block;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
 
 /* TOC */
 
