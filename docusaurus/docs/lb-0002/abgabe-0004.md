@@ -10,6 +10,6 @@ tags:
 
 ## 1 Concept Map
 
-<!-- ![Concept Map](/data/lb-0002/concept_map4.svg)
+![Concept Map](/data/lb-0002/concept_map4.svg)
 
-[Source Code](/appendix/lb2_concept_map) -->
+[Source Code](/appendix/lb2_concept_map)

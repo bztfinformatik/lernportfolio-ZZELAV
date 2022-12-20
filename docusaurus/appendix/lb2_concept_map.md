@@ -259,3 +259,74 @@ end note
 
 @enduml
 ```
+
+```plantuml
+@startuml
+
+' ### Vorgegebene Begriffe ###
+(Sessions) as (S)
+(Cookie) as (C)
+($_COOKIE) as ($C)
+($_SESSION) as ($S)
+(session_helper.php) as (SH)
+(Authorisierung) as (A)
+(JSON) as (J)
+
+' ### Hilfsbegriffe ###
+(Zustand) as (Z)
+(Superglobal) as (SG)
+
+' ### Map ###
+(S) <---> ($S)
+(C) <---> ($C)
+
+(SH) <---> ($S)
+(A) <---> (S)
+
+A <---> (J)
+
+($S) <---> (SG)
+($C) <---> (SG)
+
+(S) <---> (Z)
+(C) <---> (Z)
+
+' ### Notes ###
+note right of (S)
+  Eine Folge von Anfragen, die von einem Benutzer an eine Website oder Anwendung gestellt werden.
+  Eine Session wird auf dem Server gespeichert und kann über eine Session-ID verwaltet werden.
+end note
+
+note top of (C)
+  Eine kleine Textdatei, die auf dem Computer des Benutzers gespeichert wird.
+  Cookies können verwendet werden, um Informationen über den Benutzer zwischenzuspeichern.
+end note
+
+note right of ($C)
+  Eine Superglobal-Variable in PHP, die alle Cookies enthält, die von einer Website gesetzt wurden.
+  Sie kann verwendet werden, um auf die Werte von Cookies zuzugreifen und sie zu verwenden.
+end note
+
+note right of ($S)
+  Eine Superglobal-Variable in PHP, die alle Session-Variablen enthält.
+  Sie kann verwendet werden, um auf die Werte von Session-Variablen zuzugreifen und sie zu verwenden.
+end note
+
+note top of (SH)
+  Ein Session-Helper ist eine Art von Hilfsskript, das verwendet wird, um die Verwaltung von Sessions zu vereinfachen.
+  Um Session zu nutzen muss session_start() genutzt werden.
+  Mit dem Session-Helper muss nich in jedem PHP-File die Funktion aufgerufen werden.
+end note
+
+note right of (A)
+  Authorisierung ist der Prozess, bei dem festgestellt wird, ob ein Benutzer berechtigt ist,
+  auf bestimmte Klassen oder Funktionen zuzugreifen.
+end note
+
+note bottom of (J)
+  JSON (JavaScript Object Notation) ist ein Datenformat, das häufig zum Austausch von strukturierten Daten im Internet verwendet wird.
+  Es ist eine Textdarstellung von Objekten in JavaScript und kann leicht von verschiedenen Programmiersprachen eingesetzt werden.
+end note
+
+@enduml
+```
